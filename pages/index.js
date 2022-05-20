@@ -32,6 +32,9 @@ export default function App() {
       <Fields handleSubmit={addEntry} />
       <Heading />
       <Data />
+      <Data />
+      <Data />
+      <Data />
     </div>
   );
 }

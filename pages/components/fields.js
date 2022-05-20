@@ -48,10 +48,9 @@ export default function Fields({ handleSubmit }) {
           onChange={(e) => update1(e.target.value, "exp")}
         />
       </Field>
-      <button class="submit" onClick={onClick}>
+      <button className="submit" onClick={onClick}>
         Submit
       </button>
-      Symbol: {values.symbol} Exp: {values1.exp}
     </Wrapper>
   );
 }
