@@ -20,7 +20,7 @@ export default function SignIn(){
     }
     if (submitted) {
         return (
-            <div> 
+            <div style={{height: '100vh'}}> 
                 <h1>Please check your email </h1>
             </div>
         )
