@@ -11,7 +11,7 @@ export default function headings() {
           Symbol
         </h1>
         <h1 className="border-solid p-3 border-2 border-light-blue-500">
-          Expiration Date
+          Exp. Date
         </h1>
         <h1 className="border-solid p-3 border-2 border-light-blue-500">Type</h1>
         <h1 className="border-solid p-3 border-2 border-light-blue-500">Delta</h1>

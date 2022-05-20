@@ -13,12 +13,23 @@ body {
 }
 
 button.submit {
-  background-color: rgb(150, 201, 150);
+  background-color: rgb(34 197 94);
   padding: 3px;
   border: solid black;
   height: 50%;
   margin-top: 40px;
 }
+
+nav {
+  background-color: grey;
+  display: flex;
+  gap: 20px;
+}
+
+div {
+  background-color: rgb(131, 223, 131);
+}
+
 
 @tailwind base;
 @tailwind components;

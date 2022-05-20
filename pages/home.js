@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
-      <img src= "https://freesvg.org/img/ProfitChartCurve-Simpletutorials.net.png" alt= "Robinhood Logo" height = "200" width = "200"/> 
+        <img src= "https://freesvg.org/img/ProfitChartCurve-Simpletutorials.net.png" alt= "Robinhood Logo" height = "200" width = "200"/> 
         <h1 className={styles.title}>
           Welcome to Robin's Hood!
         </h1>
@@ -17,4 +17,3 @@ export default function Home() {
     </div>
   )
 }
-

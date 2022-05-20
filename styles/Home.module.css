@@ -1,5 +1,6 @@
 .container {
   padding: 0 2rem;
+  background-color: rgb(131, 223, 131);
 }
 
 .main {
@@ -108,9 +109,18 @@
   margin-left: 0.5rem;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
+.button{
+  background-color: grey;
+  border: solid black 2px;
+  padding: 2px;
+}
+
+.div{
+  height: 10px;
+}
+
+.link {
+  background-color: grey;
+  border: solid black 2px;
+  padding: 2px;
 }

@@ -29,44 +29,44 @@ export default function Fields({ handleSubmit }) {
   };
 
   return (
-    <Wrapper>
-      <Field>
-        <label htmlFor="symbol">Symbol</label>
-        <input
-          type="text"
-          name="symbol"
-          style={{ height: "40px" }}
-          onChange={(e) => update(e.target.value, "symbol")}
-        />
-      </Field>
-      <Field>
-        <label htmlFor="exp">(YYYY-MM-DD)</label>
-        <input
-          type="text"
-          name="exp"
-          style={{ height: "40px" }}
-          onChange={(e) => update1(e.target.value, "exp")}
-        />
-      </Field>
-      <button className="submit" onClick={onClick}>
-        Submit
-      </button>
-    </Wrapper>
+      <Wrapper>
+        <Field>
+          <label htmlFor="symbol">Symbol</label>
+          <input
+            type="text"
+            name="symbol"
+            style={{ height: "40px" }}
+            onChange={(e) => update(e.target.value, "symbol")}
+          />
+        </Field>
+        <Field>
+          <label htmlFor="exp">(YYYY-MM-DD)</label>
+          <input
+            type="text"
+            name="exp"
+            style={{ height: "40px" }}
+            onChange={(e) => update1(e.target.value, "exp")}
+          />
+        </Field>
+        <button className="submit" onClick={onClick}>
+          Submit
+        </button>
+      </Wrapper>
   );
 }
 
 
 const Wrapper = styled.form`
-  width: 100px;
+  width: 400px;
   display: flex;
   direction: row;
   justify-content: space-around;
-  gap: 10%;
+  gap: 5%;
   background-color: var(--gray-100);
   border-radius: 10px;
   padding: 20px;
+  place-items: center;
 `;
-
 
 const Field = styled.div`
   padding-top: 15px;
