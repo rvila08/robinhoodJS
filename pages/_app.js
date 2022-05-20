@@ -50,6 +50,9 @@ function MyApp({ Component, pageProps }) {
         <Link href="/options">
           <a style={linkStyle}>Option Lookup</a>
         </Link>
+        <Link href="/options2">
+          <a style={linkStyle}>Option Lookup - Unprotected</a>
+        </Link>
       </nav>
       <Component {...pageProps} />
     </div>
