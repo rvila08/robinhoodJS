@@ -41,11 +41,14 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <nav style={navStyle}>
-        <Link href="/options">
-          <a style={linkStyle}>Option Lookup</a>
-        </Link>
         <Link href="/home">
           <a style={linkStyle}>Home</a>
+        </Link>
+        <Link href="/profile">
+          <a style={linkStyle}>Profile</a>
+        </Link>
+        <Link href="/options">
+          <a style={linkStyle}>Option Lookup</a>
         </Link>
       </nav>
       <Component {...pageProps} />
